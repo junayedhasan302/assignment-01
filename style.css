@@ -229,8 +229,8 @@ section {
     min-height: 492px;
 }
 
-.Pro li::marker {
-    color: #60A5FA;
+.Pro li::marker, .standard li::marker, .Team li::marker {
+    color: #2563EB;
 }
 
 .price {
