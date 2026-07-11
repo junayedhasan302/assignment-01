@@ -230,7 +230,9 @@ section {
     min-height: 492px;
 }
 
-.Pro li::marker, .standard li::marker, .Team li::marker {
+.Pro li::marker,
+.standard li::marker,
+.Team li::marker {
     color: #2563EB;
 }
 
@@ -480,6 +482,7 @@ footer {
 .footer-main {
     display: flex;
     justify-content: space-between;
+
 }
 
 .left-footer {
@@ -489,15 +492,34 @@ footer {
     gap: 10px;
     align-items: center;
 }
-
+/* .fb{
+    color: #2563EB;
+} */
 .right-footer {
     display: flex;
     gap: 10px;
     align-items: center;
+
     a {
         text-decoration: none;
         color: rgba(255, 255, 255, 0.4);
     }
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    margin-top: 40px;
+}
+.footer-bottom hr {
+    border: none;
+    border-top: 1px solid #444;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.footer-bottom p {
+    text-align: center;
+    color: #bdbdbd;
+    font-size: 14px;
 }
 
 /*======================================================
