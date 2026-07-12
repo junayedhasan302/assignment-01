@@ -583,6 +583,52 @@ footer {
     font-size: 14px;
 }
 
+/* Facebook */
+.right-footer .fb:hover{
+    transform: translateY(-4px) scale(1.15);
+    background: linear-gradient(135deg, #1877F2, #0D5FD4);
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: 0 12px 28px rgba(24, 119, 242, .45);
+}
+/* Instagram */
+.right-footer .ig:hover{
+    transform: translateY(-4px) scale(1.15);
+    background: linear-gradient(135deg,
+        #FEDA75 0%,
+        #FA7E1E 20%,
+        #D62976 50%,
+        #962FBF 75%,
+        #4F5BD5 100%);
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: 0 12px 28px rgba(214, 41, 118, .45);
+}
+/* X */
+.right-footer .x:hover{
+    transform: translateY(-4px) scale(1.15);
+    background: linear-gradient(135deg, #000000, #2B2B2B, #000000);
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, .45);
+}
+/* LinkedIn */
+.right-footer .li:hover{
+    transform: translateY(-4px) scale(1.15);
+    background: linear-gradient(135deg, #0077B5, #005582);
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: 0 12px 28px rgba(0, 119, 181, .45);
+}
+
+/* Pinterest */
+.right-footer .pin:hover{
+    transform: translateY(-4px) scale(1.15);
+    background: linear-gradient(135deg, #E60023, #BD081C);
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: 0 12px 28px rgba(230, 0, 35, .45);
+}
 /*======================================================
 -------------------  FOOTER END   ----------------------
 ========================================================*/
