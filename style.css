@@ -16,6 +16,9 @@
     border: none;
     color: white;
 }
+.common-button:hover {
+    background: #103394;
+}
 
 .container {
     max-width: 1320px;
@@ -102,7 +105,9 @@ nav {
     border: none;
     color: white;
 }
-
+.banner-button:hover {
+    background: #103394;
+}
 /*======================================================
 --------------------------Banner END-------------------
 ========================================================*/
@@ -173,7 +178,23 @@ section {
     grid-template-columns: repeat(2, 2fr);
     gap: 32px;
 }
-
+.meet-the-speakers-hover:hover{
+    transform: translateY(-2px) scale(1.01);
+    background-color: #08093b;
+    small{
+        color: #60A5FA;
+    }
+    h3{
+        color:#d3f250;
+    }
+    p{
+        color: #ffffff;
+    }
+    box-shadow:
+        0 10px 20px rgba(13, 27, 42, 0.12),
+        0 20px 40px rgba(13, 27, 42, 0.18);
+    transition: 0.3s;
+}
 /*======================================================
 --------------------------Meet the speaker END----------
 ========================================================*/
@@ -230,6 +251,27 @@ section {
     min-height: 492px;
 }
 
+.standard:hover,
+.Team:hover {
+    transform: translateY(-2px) scale(1.01);
+    background-color: #E8F1F5;
+    box-shadow:
+        0 10px 20px rgba(13, 27, 42, 0.12),
+        0 20px 40px rgba(13, 27, 42, 0.18);
+    transition: 0.3s;
+}
+
+.Pro:hover {
+    transform: translateY(-2px) scale(1.01);
+    background-color: #13265C;
+    box-shadow:
+        0 10px 20px rgba(13, 27, 42, 0.12),
+        0 20px 40px rgba(13, 27, 42, 0.18);
+    transition: 0.3s;
+}
+
+
+/*Bullet list coloring*/
 .Pro li::marker,
 .standard li::marker,
 .Team li::marker {
@@ -414,7 +456,6 @@ section {
     background: #1D4ED8;
 }
 
-
 /* RIGHT */
 
 .details-box {
@@ -482,7 +523,7 @@ footer {
 .footer-main {
     display: flex;
     justify-content: space-between;
-
+    margin-bottom: 30px;
 }
 
 .left-footer {
@@ -492,6 +533,7 @@ footer {
     gap: 10px;
     align-items: center;
 }
+
 /* .fb{
     color: #2563EB;
 } */
@@ -507,17 +549,36 @@ footer {
 }
 
 /* Footer Bottom */
-.footer-bottom {
-    margin-top: 40px;
-}
 .footer-bottom hr {
     border: none;
-    border-top: 1px solid #444;
+    border-top: 1px solid #bdbdbd;
     width: 100%;
     margin-bottom: 20px;
 }
-.footer-bottom p {
-    text-align: center;
+
+.footer-bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.footer-left-side p {
+    color: #bdbdbd;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.footer-right-side {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.footer-right-side a {
+    text-decoration: none;
     color: #bdbdbd;
     font-size: 14px;
 }
